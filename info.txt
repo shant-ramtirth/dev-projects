@@ -1,0 +1,39 @@
+GIT commands file:
+
+git init Fol1     - Turns the folder into repository
+git add file1.txt     - Adds the file to staging (to be committed later)
+git rm --cached file1.txt      - Removes the file from staging (moves to untracked)
+git commit -m “Adding new files”     - Commits the files into VCS
+git status
+git restore file1.txt    - If the file is deleted from working directory, it restores from git repository/VCS
+git diff    - shows files difference. 
+git log    - shows the commit logs (--oneline  --pretty)
+git config --global user.name “shantkumar”
+git config --global user.email “shant@gmail.com”
+git config -l
+
+git clone https:github.com/….
+git pull     - downloads the file changes or new files
+git branch    - lists the branches
+git checkout -b dev    - creates a branch
+git checkout master     - switches to master branch [Alternate: git switch ]
+git merge dev      - Merges the dev branch with master
+git cherry-pick commit#       - Picks only a particular commit and merges
+git stash    &    git stash pop      - To stash & pop it back while switch branches with uncommitted changes
+
+git remote add RemRepo https:github.com/….
+git remote -v      - Lists the remote repos
+git fetch        - fetches the all remote repo’s branches to local
+git pull RemRepo master        - fetches the remote repo’s specified branch to local
+git push RemRepo master        - updates the remote repo’s specified branch from local
+(git push RemRepo --delete branchname)
+git rebase dev      - Similar to merge but includes commit history [git rebase -i HEAD~3   - rebases last 3 commits]
+git revert commit#      - Reverts a commit
+git reset --soft commit#     -Deletes all the commits after commit#  (soft keeps the files back in staging, but hard deletes)
+git clean    - removes untracked files & dir from working tree
+
+.gitignore file will be ignored when committed 
+
+Connecting to GitHub Repo with token:
+git remote set-url RemRepo https://token_fromGitHub@github.com/shant-user/my-repo1.git
+
