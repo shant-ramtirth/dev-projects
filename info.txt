@@ -15,6 +15,7 @@ git config -l
 git clone https:github.com/….
 git pull     - downloads the file changes or new files
 git branch    - lists the branches
+git branch --delete BranchName    - deletes the specified branch
 git checkout -b dev    - creates a branch
 git checkout master     - switches to master branch [Alternate: git switch ]
 git merge dev      - Merges the dev branch with master
