@@ -24,7 +24,7 @@ git stash    &    git stash pop      - To stash & pop it back while switch branc
 
 git remote add RemRepo https:github.com/….
 git remote -v      - Lists the remote repos
-git fetch        - fetches the all remote repo’s branches to local
+git fetch        - fetches remote repo’s latest metadata to local
 git pull RemRepo master        - fetches the remote repo’s specified branch to local
 git push RemRepo master        - updates the remote repo’s specified branch from local
 (git push RemRepo --delete branchname)
