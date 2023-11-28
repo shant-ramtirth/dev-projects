@@ -1,4 +1,4 @@
-GIT commands file:
+GIT commands:
 
 git init Fol1     - Turns the folder into repository
 git add file1.txt     - Adds the file to staging (to be committed later)
