@@ -38,4 +38,3 @@ git clean    - removes untracked files & dir from working tree
 Connecting to GitHub Repo with token:
 git remote set-url RemRepo https://token_fromGitHub@github.com/shant-user/my-repo1.git
 
-Adding Test line 1 for merge
