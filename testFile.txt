@@ -5,4 +5,6 @@ Line 2 - Testing merging issues - From User1
 
 Line 3 - From user 1
 
+Line 4 - User 1
+
 
