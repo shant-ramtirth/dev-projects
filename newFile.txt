@@ -1,6 +1,0 @@
-This is file from user 2
-
-Line 1 - From User 2
-Line 2
-
-Line 3 - From user 2 staging branch
