@@ -1,2 +1,2 @@
 This is LINE 2
-
+dding Line 2 from local Git 
